@@ -1,37 +1,13 @@
-.app {
-  height: 100vh;
-}
-
-.controller {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 100;
-  width: 260px;
-  max-height: 100%;
-  overflow: auto;
-  padding: 10px;
-  background: #fff;
-  box-sizing: border-box;
-}
-
-.form input {
-  width: 100%;
-  padding: 0;
+body {
   margin: 0;
-  border: 0 none;
-  border-bottom: 1px solid #000;
-  box-sizing: border-box;
-  font: inherit;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-.paths {
-  list-style: none;
-  padding: 0;
-}
-
-.map > div,
-.map {
-  width: 100% !important;
-  height: 100% !important;
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
 }

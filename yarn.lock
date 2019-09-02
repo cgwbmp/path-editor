@@ -1223,6 +1223,11 @@
   resolved "https://registry.yarnpkg.com/@types/stack-utils/-/stack-utils-1.0.1.tgz#0a851d3bd96498fa25c33ab7278ed3bd65f06c3e"
   integrity sha512-l42BggppR6zLmpfU6fq9HEa2oGPEI8yrSPL3GITjfRInppYFahObbIQOQK3UGxEnyQpltZLaPe75046NOZQikw==
 
+"@types/yandex-maps@^2.1.8":
+  version "2.1.8"
+  resolved "https://registry.yarnpkg.com/@types/yandex-maps/-/yandex-maps-2.1.8.tgz#e29067f2cc7b913300d8a222907a3a3430b553b2"
+  integrity sha512-4bRhc/cnrlh2AMGwxO0u4LDvgxhAqlap7hAMuuyGInxFzaKNeuiTTFl5wFwQ0N/gcXBReybwaAqvD5DYZxPZVg==
+
 "@types/yargs@^12.0.2", "@types/yargs@^12.0.9":
   version "12.0.12"
   resolved "https://registry.yarnpkg.com/@types/yargs/-/yargs-12.0.12.tgz#45dd1d0638e8c8f153e87d296907659296873916"
