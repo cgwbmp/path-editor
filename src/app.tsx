@@ -40,6 +40,7 @@ const App: React.FC = () => {
       map={(
         <Map
           center={mapCenter}
+          zoom={12}
           points={points}
           onChangeMapCenter={onChangeMapCenter}
           onChangePointPlace={onChangePointPlace}
