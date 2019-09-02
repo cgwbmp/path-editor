@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> DOM structure not changed 1`] = `
+<div
+  className="layout"
+>
+  <aside
+    className="layout--controller"
+  >
+    <form
+      className="form"
+      name="point"
+      onSubmit={[Function]}
+    >
+      <fieldset>
+        <legend>
+          Добавить точку маршрута
+        </legend>
+        <div
+          className="form--group"
+        >
+          <input
+            area-label="Введите название"
+            name="title"
+            onChange={[Function]}
+            placeholder="Введите название"
+            value=""
+          />
+          <button
+            name="create"
+            title="Добавить"
+            type="submit"
+          >
+            ↵
+          </button>
+        </div>
+      </fieldset>
+    </form>
+    <ul
+      className="list"
+    />
+  </aside>
+  <section
+    className="layout--map"
+  />
+</div>
+`;

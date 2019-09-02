@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PointList /> DOM structure not changed 1`] = `
+<ul
+  className="list"
+>
+  <li
+    className="list--item"
+  >
+    <span
+      className="list--content"
+    >
+      Title 1
+    </span>
+    <button
+      className="list--button"
+      name="point"
+      onClick={[Function]}
+      title="Удалить"
+      type="button"
+      value="1"
+    >
+      x
+    </button>
+  </li>
+  <li
+    className="list--item"
+  >
+    <span
+      className="list--content"
+    >
+      Title 2
+    </span>
+    <button
+      className="list--button"
+      name="point"
+      onClick={[Function]}
+      title="Удалить"
+      type="button"
+      value="2"
+    >
+      x
+    </button>
+  </li>
+</ul>
+`;

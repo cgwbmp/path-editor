@@ -24,7 +24,9 @@
     "typescript": "3.6.2"
   },
   "devDependencies": {
-    "eslint-config-airbnb-typescript": "^4.0.1"
+    "@types/react-test-renderer": "^16.9.0",
+    "eslint-config-airbnb-typescript": "^4.0.1",
+    "react-test-renderer": "^16.9.0"
   },
   "eslintConfig": {
     "extends": [

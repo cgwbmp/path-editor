@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Layout /> DOM structure not changed 1`] = `
+<div
+  className="layout"
+>
+  <aside
+    className="layout--controller"
+  >
+    Controller
+  </aside>
+  <section
+    className="layout--map"
+  >
+    Map
+  </section>
+</div>
+`;

@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PointForm /> DOM structure not changed 1`] = `
+<form
+  className="form"
+  name="point"
+  onSubmit={[Function]}
+>
+  <fieldset>
+    <legend>
+      Добавить точку маршрута
+    </legend>
+    <div
+      className="form--group"
+    >
+      <input
+        area-label="Введите название"
+        name="title"
+        onChange={[Function]}
+        placeholder="Введите название"
+        value=""
+      />
+      <button
+        name="create"
+        title="Добавить"
+        type="submit"
+      >
+        ↵
+      </button>
+    </div>
+  </fieldset>
+</form>
+`;
