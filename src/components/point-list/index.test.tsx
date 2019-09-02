@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './app';
+import PointList from '.';
 
-describe('<App />', () => {
+describe('<PointList />', () => {
   it('renders without crashing', () => {
     const div = document.createElement('div');
-    ReactDOM.render(<App />, div);
+    ReactDOM.render(<PointList />, div);
     ReactDOM.unmountComponentAtNode(div);
   });
 });
