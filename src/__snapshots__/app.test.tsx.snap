@@ -27,6 +27,7 @@ exports[`<App /> DOM structure not changed 1`] = `
             value=""
           />
           <button
+            area-label="Добавить"
             name="create"
             title="Добавить"
             type="submit"

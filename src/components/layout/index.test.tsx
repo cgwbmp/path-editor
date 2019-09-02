@@ -11,12 +11,12 @@ describe('<Layout />', () => {
   });
 
   it('DOM structure not changed', () => {
-    const component = renderer.create(
+    const component = renderer.create((
       <Layout
         controller="Controller"
         map="Map"
-      />,
-    );
+      />
+    ));
     const tree = component.toJSON();
     expect(tree).toMatchSnapshot();
   });

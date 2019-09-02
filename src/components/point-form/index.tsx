@@ -48,7 +48,12 @@ const PointForm: React.FC<PointFormProps> = (props: PointFormProps) => {
             area-label="Введите название"
             onChange={onChangeTitle}
           />
-          <button name="create" type="submit" title="Добавить">
+          <button
+            name="create"
+            type="submit"
+            title="Добавить"
+            area-label="Добавить"
+          >
             &crarr;
           </button>
         </div>

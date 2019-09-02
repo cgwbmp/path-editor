@@ -11,9 +11,7 @@ describe('<Map />', () => {
   });
 
   it('DOM structure not changed', () => {
-    const component = renderer.create((
-      <Map center={[0, 0]} />
-    ));
+    const component = renderer.create(<Map center={[0, 0]} />);
     const tree = component.toJSON();
     expect(tree).toMatchSnapshot();
   });

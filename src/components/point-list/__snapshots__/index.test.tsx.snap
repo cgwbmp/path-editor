@@ -13,8 +13,9 @@ exports[`<PointList /> DOM structure not changed 1`] = `
       Title 1
     </span>
     <button
+      area-label="Удалить"
       className="list--button"
-      name="point"
+      name="remove"
       onClick={[Function]}
       title="Удалить"
       type="button"
@@ -32,8 +33,9 @@ exports[`<PointList /> DOM structure not changed 1`] = `
       Title 2
     </span>
     <button
+      area-label="Удалить"
       className="list--button"
-      name="point"
+      name="remove"
       onClick={[Function]}
       title="Удалить"
       type="button"

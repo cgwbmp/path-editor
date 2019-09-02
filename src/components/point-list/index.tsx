@@ -29,9 +29,10 @@ const PointList: React.FC<PointListProps> = (props: PointListProps) => {
           <button
             className="list--button"
             type="button"
-            name="point"
+            name="remove"
             value={point.id}
             title="Удалить"
+            area-label="Удалить"
             onClick={onClick}
           >
             x
