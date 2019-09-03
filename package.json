@@ -4,6 +4,7 @@
   "private": true,
   "description": "Editing path on map",
   "author": "Alena <cgwbmp@gmail.com>",
+  "homepage" : "https://cgwbmp.github.io/path-editor",
   "license": "MIT",
   "scripts": {
     "start": "react-scripts start",
