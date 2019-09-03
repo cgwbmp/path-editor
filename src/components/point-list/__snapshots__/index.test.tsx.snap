@@ -3,9 +3,18 @@
 exports[`<PointList /> DOM structure not changed 1`] = `
 <ul
   className="list"
+  data-react-beautiful-dnd-droppable="1"
 >
   <li
     className="list--item"
+    data-react-beautiful-dnd-draggable="1"
+    onTransitionEnd={null}
+    style={
+      Object {
+        "transform": null,
+        "transition": null,
+      }
+    }
   >
     <span
       className="list--content"
@@ -26,6 +35,14 @@ exports[`<PointList /> DOM structure not changed 1`] = `
   </li>
   <li
     className="list--item"
+    data-react-beautiful-dnd-draggable="1"
+    onTransitionEnd={null}
+    style={
+      Object {
+        "transform": null,
+        "transition": null,
+      }
+    }
   >
     <span
       className="list--content"

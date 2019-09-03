@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import renderer from 'react-test-renderer';
 import { mount } from 'enzyme';
-import PointList from '.';
+import PointList, { reorder } from '.';
 
 describe('<PointList />', () => {
   it('renders without crashing', () => {
@@ -56,5 +56,13 @@ describe('<PointList />', () => {
       ],
     });
     expect(component.find('.list--item').length).toEqual(1);
+  });
+});
+
+describe('reorder', () => {
+  it('move item in array to new position', () => {
+    const source: Array<number> = [1, 2, 3];
+    const result: Array<number> = reorder<number>(source, 0, 1);
+    expect(result).toEqual([2, 1, 3]);
   });
 });

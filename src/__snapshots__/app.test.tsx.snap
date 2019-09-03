@@ -39,6 +39,7 @@ exports[`<App /> DOM structure not changed 1`] = `
     </form>
     <ul
       className="list"
+      data-react-beautiful-dnd-droppable="1"
     />
   </aside>
   <section

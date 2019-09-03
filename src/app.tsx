@@ -19,6 +19,10 @@ const App: React.FC = () => {
     setPoints(points.filter(({ id }: Point) => id !== pointId));
   }, [points]);
 
+  const onReorder = useCallback((list: Array<Point>): void => {
+    setPoints(list);
+  }, []);
+
   const onChangeMapCenter = useCallback((center: [number, number]): void => {
     setMapCenter(center);
   }, []);
@@ -34,7 +38,7 @@ const App: React.FC = () => {
       controller={(
         <>
           <PointForm place={mapCenter} onCreate={onAdd} />
-          <PointList list={points} onRemove={onRemove} />
+          <PointList list={points} draggable onRemove={onRemove} onReorder={onReorder} />
         </>
       )}
       map={(

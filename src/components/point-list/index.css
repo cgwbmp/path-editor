@@ -8,6 +8,14 @@
   align-items: flex-start;
 }
 
+.list--item:before {
+  content: "☰";
+  margin-right: 5px;
+  margin-top: 0.2em;
+  font-size: 0.8em;
+  color: grey;
+}
+
 .list--content {
   flex-grow: 1;
   word-break: break-word;
@@ -18,4 +26,5 @@
   border: 0;
   background: none;
   flex-shrink: 0;
+  color: grey;
 }
