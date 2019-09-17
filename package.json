@@ -4,14 +4,16 @@
   "private": true,
   "description": "Editing path on map",
   "author": "Alena <cgwbmp@gmail.com>",
-  "homepage" : "https://cgwbmp.github.io/path-editor",
+  "homepage": "https://cgwbmp.github.io/path-editor",
   "license": "MIT",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "e2e": "HOST=http://localhost:3000 jest --watchAll --testMatch=\"**/e2e/*.[jt]s\""
+    "e2e": "HOST=http://localhost:3000 jest --watchAll --testMatch=\"**/e2e/*.[jt]s\"",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@types/jest": "24.0.18",
@@ -35,6 +37,7 @@
     "enzyme-adapter-react-16": "^1.14.0",
     "eslint-config-airbnb": "^18.0.1",
     "eslint-config-airbnb-typescript": "^4.0.1",
+    "gh-pages": "^2.1.1",
     "puppeteer": "^1.19.0",
     "react-test-renderer": "^16.9.0"
   },
